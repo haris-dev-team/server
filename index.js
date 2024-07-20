@@ -8,17 +8,11 @@ const express = require("express");
 
 const app = express();
 
-let corsOption = {
-  origin: "https://server-production-a485.up.railway.app",
-  methods: "GET,POST",
-  credentials: true,
-};
-
 app.get("/", (req, res) => {
   return res.send("Hello World");
 });
 
-app.use(cors(corsOption));
+app.use(cors());
 
 app.use(express.json());
 
