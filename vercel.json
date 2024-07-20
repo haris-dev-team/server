@@ -19,10 +19,5 @@
   "env": {
     "MONGODB_URL": "mongodb+srv://react-native-taskcy:NsRZ4eoErSmUaM86@cluster0.un5etmf.mongodb.net/fmp_Project",
     "JWT_SECRECR_KEY": "@Secret@$Key$@"
-  },
-  "functions": {
-    "api/**/*.js": {
-      "maxDuration": 10
-    }
   }
 }
