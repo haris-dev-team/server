@@ -9,7 +9,7 @@ const express = require("express");
 const app = express();
 
 let corsOption = {
-  origin: "*",
+  origin: "https://server-production-a485.up.railway.app",
   methods: "GET,POST",
   credentials: true,
 };
